@@ -14,7 +14,7 @@ public class AppAdvice implements Ordered{
 	
 	@Before(value = "execution(* com.dao.Welcome.sayWelcome(..))")
 	public void callBefore() {
-		System.out.println("Applying Transaction");
+		System.out.println("Applying Transaction ");
 	}
 //
 //	@After(value = "execution(* com.dao.Welcome.sayHello(..))")
